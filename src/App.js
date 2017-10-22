@@ -1,13 +1,20 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './style.css'
+
+import Map from './components/Map'
+import Navi from './components/Navi'
+import Alert from './components/ScrollText'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className= "Map">
-        
+        <Navi />
+        <div className="Alert">
+          <Alert />
+        </div>
+        <div className="Map">
+          <Map />
         </div>
       </div>
     );
