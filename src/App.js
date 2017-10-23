@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './style.css'
 
-import Map from './components/Map'
 import Navi from './components/Navi'
+import InfoContainer from './containers/InfoContainer'
 import AlertContainer from './containers/AlertContainer'
 
 class App extends Component {
@@ -10,12 +10,8 @@ class App extends Component {
     return (
       <div className="App">
         <Navi />
-        <div className="Alert">
-          <AlertContainer />
-        </div>
-        <div className="Map">
-          <Map />
-        </div>
+        <AlertContainer />
+        <InfoContainer />
       </div>
     );
   }
