@@ -3,7 +3,7 @@ import './style.css'
 
 import Map from './components/Map'
 import Navi from './components/Navi'
-import Alert from './components/ScrollText'
+import AlertContainer from './containers/AlertContainer'
 
 class App extends Component {
   render() {
@@ -11,7 +11,7 @@ class App extends Component {
       <div className="App">
         <Navi />
         <div className="Alert">
-          <Alert />
+          <AlertContainer />
         </div>
         <div className="Map">
           <Map />

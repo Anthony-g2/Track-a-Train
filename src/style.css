@@ -8,14 +8,34 @@ nav {
 .map {
   text-align: center;
 }
-.statusBar {
-  margin-top: 0;
+.alertsContainer {
+  margin: 0;
   text-align: center;
   background-color: black;
   width: 100vw;
   height: 80px;
-}
-.alert {
+  text-align: center;
   color: red;
-  font-weight: 600;
+}
+
+.statusBar {
+  overflow: hidden;
+  width: 100vw;
+}
+
+.scroll-left h4{
+  position: inherit;
+  width: 100vw;
+  height: 100%;
+  margin: 0;
+  left: 0;
+  line-height: 50px;
+  text-align: center;
+  transform:translateX(100%);
+  animation: scroll-left 12s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
 }
