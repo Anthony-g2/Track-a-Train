@@ -126,6 +126,7 @@ class PlannerForm extends Component {
               <tr>
                 <th data-field="depart">Depart Time</th>
                 <th data-field="arrive">Arrival Time</th>
+                <th data-field="bikes">Bikes Allowed</th>
               </tr>
             </thead>
             <TripInfo trip={this.state.trip} />

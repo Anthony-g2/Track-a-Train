@@ -2,7 +2,7 @@ img {
   width: 100vw;
   height: auto;
   max-width: 650px;
-  margin: 0;
+  margin-top: 15px;
 }
 
 body  {
@@ -33,6 +33,13 @@ nav {
   height: auto;
 }
 
+.logo1 {
+  margin-right: 10px;
+  width: 130px;
+  height: auto;
+}
+
+
 .infoContainer {
   margin: 0;
   padding: 0;
@@ -55,7 +62,7 @@ nav {
   width: 100vw;
 }
 
-.scroll-left h4{
+.scroll-left h4 {
   position: inherit;
   width: 100vw;
   height: 100%;
@@ -65,6 +72,15 @@ nav {
   text-align: center;
   transform:translateX(100%);
   animation: scroll-left 10s linear infinite;
+}
+
+.scroll-left img {
+  position: inherit;
+  width: 100px;
+  margin-right: 200px;
+  margin-left: 200px;
+  height: auto;
+  text-align: center;
 }
 
 @keyframes scroll-left {
